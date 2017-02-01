@@ -12,6 +12,7 @@ header{
 	background-color: #ffffcc;
 	width: 960px;
 	height: 75px;
+	border: 1px solid #660066;
 	
 }
 
@@ -27,22 +28,51 @@ header{
 }
 
 footer{
+	display: block;
 	background-color: #993399;
 	font-size: 10pt;
 	width: 960px;
-	height: 75px;
+	height: 25px;
 	color: white;
 	text-align: center;
+	border: 1px solid #660066;
+	padding: 25px, 5px, 25px, 5px;
 }
 
 .mainSection {
 	float: left;
 	display:inline;
 	width: 650px;
+	border: 1px solid #660066;
+	background-color: #ffffcc;
+	padding: 30px, 5px, 30px, 5px;
+	margin-right: 20px;
 }
 
 .sideBar {
 	background-color: white;
 	float: left;
 	width: 270px;
+	border: 1px solid #660066;
+	padding: 10px;
+}
+
+.mediaIcons{
+	width: 75px;
+	height: 75px;
+	text-align: center;
+}
+
+#profile_pic {
+	width: 150px;
+	height: 150px;
+}
+
+.clearFix{
+	overflow:auto;
+}
+
+.portfolioPlace{
+	width: 150px;
+	height: 150px;
 }
